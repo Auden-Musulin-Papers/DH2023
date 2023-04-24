@@ -1,0 +1,343 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0039.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-04-28 and with Typescript W. H. Auden Translation "Joseph Weinheber"</title>
+            <author>Auden, W. H.</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C32C-5</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>1, 9</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin><origDate notBefore="1965-04-28" notAfter="1965-04-28">1965-04-28</origDate></origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         
+         <correspDesc>
+            <correspAction type="composed">
+               <persName ref="#amp_person_1">Auden, W. H.</persName>
+               <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
+               <date notBefore="1965-04-28" notAfter="1965-04-28">1965-04-28</date>
+            </correspAction>
+            <correspAction type="sent">
+               <persName ref="#amp_person_1">Auden, W. H.</persName>
+               <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
+               <date notBefore="1965-04-28" notAfter="1965-04-28">1965-04-28</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#amp_person_2">Musulin, Stella</persName>
+               <placeName ref="#amp_place_id_7">Fridau</placeName>
+               <date>unknown</date>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
+               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0038.xml">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0003.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</ref>
+            </correspContext>
+         </correspDesc>
+         
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer" when="2021-12-21">text transcribed</change>
+         <change who="tfruehwirth" when="2021-12-22">text transcribed using Transkribus</change>
+         <change who="smayer tfruehwirth" when="2021-12-22">transcriptions collated</change>
+         <change who="smayer tfruehwirth" when="2022-06-13">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-02-28">entities and correspDesc collated</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4556" lry="3460">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0013/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="4546" lry="3458">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0014/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5692" lry="7746">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0009/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5692" lry="7752">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0010/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5698" lry="7744">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0139/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5696" lry="7748">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0140/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#typed">
+      <body>
+         <div xml:id="transcription">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0013/" type="envelope"/>
+               <p hand="#handwritten">
+                  <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
+                  Stella Musulin</rs><lb/>
+                  <rs type="place" ref="#amp_place_id_7">Fridau<lb/>
+                  Obergra<del><gap reason="deleted"/></del><gap reason="illegible"/>endorf<lb/>
+                  bei S. Pölten<lb/>
+                  N.Ö.</rs>
+               </p>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0014/" type="envelope"/>
+               <p hand="#handwritten">
+                  <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear> Auden</rs><lb/>
+                  <rs type="place" ref="#amp_place_id_2">Kirchstetten (Westb<unclear>a</unclear>h<unclear>n</unclear>)<lb/>
+                  Hint<unclear>e</unclear>rholz# 6<lb/>
+                  N.Ö</rs><lb/>
+                  <unclear>·</unclear>
+               </p>            
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0009/" type="sheet"/>
+               <p>
+                  <space quantity="5" unit="char"/><rs type="lit_work" ref="#lit_work_id_62"><rs type="person" ref="#amp_person_5"><hi rend="underline">JOSEPH WEINHEBER</hi><lb/>
+                  <space quantity="7" unit="char"/>(<hi rend="underline">I892-I945)</hi></rs></rs>
+               </p>
+               <lg>
+                  <l>Reaching my gate a narrow</l>
+                  <l>Lane from the village</l>
+                  <l>Passes on into a wood:</l>
+                  <l>When I walk that way,</l>
+                  <l>It seems befitting to stop</l>
+                  <l>And look through the fence</l>
+                  <l>Of your garden where(under</l>
+                  <l>The circs they had to)</l>
+                  <l>They buried you like a loved</l>
+                  <l>Old family dog.</l>
+               </lg>
+               <lg>   
+                  <l>Categorised enemies</l>
+                  <l>Twenty years ago,</l>
+                  <l>Now next-door neighbors,we might</l>
+                  <l>Have become good friends,</l>
+                  <l>Sharing a common ambit</l>
+                  <l>And love of the word,</l>
+                  <l>Over a golden Kremser</l>
+                  <l>Had many a long</l>
+                  <l>Language on syntax,commas,</l>
+                  <l>Versification.</l>
+               </lg>
+               <lg>
+                  <l>Yes,yes,it has to be said:</l>
+                  <l>Men of great damage</l>
+                  <l>And malengine took you up.</l>
+                  <l>Did they for long,though,</l>
+                  <l>Take you in,who to <rs type="person" ref="#amp_person_196">Goebbel<del>l</del>s</rs>'</l>
+                  <l>Offer of culture</l>
+                  <l>Countered <hi rend="underline">In Ruah lassen</hi>!?</l>
+                  <l>But Rag,Tag,Bobtail</l>
+                  <l>Prefer a stink,and the young</l>
+                  <l>Condemn you unread.</l>
+               </lg>
+               <lg>
+                  <l>What,had you ever heard of <space quantity="1" unit="char"/>etc</l>
+               </lg>   
+               <p hand="#handwritten">
+                  Re<unclear>v .</unclear>
+               </p>
+               <p hand="#handwritten">
+                  re<unclear>v.</unclear>
+               </p>
+               <p hand="#handwritten">
+                  Wednesday . <rs type="place" ref="#amp_place_id_5">Kirch<unclear>s</unclear>t<unclear>e</unclear>tten</rs>
+               </p>
+               <p hand="#handwritten">
+                  Dear <rs type="person" ref="#amp_person_2">Stella</rs>:<lb/>
+                  Many thanks for your letter. Will try and call you<lb/>
+                  to-day by phone.<lb/>
+                  I enclose a <rs type="lit_work" ref="#lit_work_id_92">pr<unclear>o</unclear>se translation</rs> ma<unclear>d</unclear>e by <rs type="person" ref="#amp_person_1">me</rs> and <rs type="person" ref="#amp_person_157">a German friend</rs><unclear>;</unclear><lb/>
+                  <gap reason="illegible"/> <del><gap reason="deleted"/></del> Sin<unclear>ce</unclear> <rs type="lit_work" ref="#lit_work_id_61">the copy I sent you</rs> , <del><gap reason="deleted"/></del> I have made <unclear>a</unclear> few slig<unclear>h</unclear>t<lb/>
+                  changes in stanza 3. (see above)<lb/>
+                  Could you che<unclear>c</unclear>k the translat<unclear>io</unclear>n for errors.<lb/>
+                  love<lb/>
+                  <rs type="person" ref="#amp_person_1">Wystan</rs>.
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0010/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0139/" type="sheet"/>
+               <p>
+                  <space quantity="26" unit="char"/><rs type="lit_work" ref="#lit_work_id_92"><rs type="person" ref="#amp_person_5"><hi rend="underline">JOSEPH WEINHEBER</hi></rs><lb/>
+                  <space quantity="28" unit="char"/>(<hi rend="underline">I892-I945)</hi></rs>
+               </p>
+               <p hand="#handwritten">
+                  1
+               </p>
+               <p>
+                  <space quantity="7" unit="char"/><del>Von meiner Gartentur</del><lb/>
+                  <space quantity="7" unit="char"/>Von meiner Gartent<unclear>ü</unclear>r f<unclear>ü</unclear><del>rh</del>hrt ein schmaler Pfad vom Dorf weiter in einen Wald. Auf<lb/>
+                  meinen G<unclear>ä</unclear>ngen dorthin scheint es geh<unclear>ö</unclear>rig,stehen zu bleiben und durch den Zaun deines<lb/>
+                  Gartens zu schauen,in dem&#x1F5F4; dich(die Umst<unclear>ä</unclear>nde verlangten es) wie einen alten geliebten<lb/>
+                  Familienhund begrub.
+               </p>
+               <p hand="#handwritten">
+                  2
+               </p>
+               <p>
+                  <space quantity="7" unit="char"/>Vor zwanzig Jahren kat<hi rend="underline">erg</hi>orisierte&#x1F5F4; Feinde,jezt nah benachbart,w<unclear>ä</unclear>ren wir<lb/>
+                  vielleicht gute Freunde geworden,die eine gemeinsame <hi rend="underline">Umwelt</hi> und Liebe f<unclear>ü</unclear>r das Wort<lb/>
+                  teilten,und h<unclear>ä</unclear>tten bei einem goldhellen Kremser <hi rend="underline">l<unclear>ä</unclear>nge</hi> Gespr<unclear>ä</unclear>che uber Syntax,Kommas<lb/>
+                  und Verskunst gef<unclear>ü</unclear>hrt.
+               </p>
+            <p hand="#handwritten">
+                  3
+               </p>
+               <p>
+                  <space quantity="6" unit="char"/>Ja,ja,es muss gesagt werden,Machthaber,die grosses Unheil stifteten und <hi rend="underline">B<unclear>ö</unclear>ses</hi><lb/>
+                  <hi rend="underline">pl<del>na</del>anten</hi>,nahmen dich auf;f<unclear>ü</unclear>r wie lang,doch,wickelten sie dich ein,dich,der auf <rs type="person" ref="#amp_person_196">Goebbels</rs><lb/>
+                  Angebot von Kultur "In Ruah lassen!" entgegnetest? <del>a</del>Aber <space quantity="1" unit="char"/>/? <gap reason="illegible"/> Rag,Tag, Bobta<unclear>il ?</unclear> <space quantity="3" unit="char"/><del>x</del>ziehen einen Stunk<lb/>
+                  vor,und die Jungen verdammen dich ungelesen.
+               </p>
+            <p hand="#handwritten">
+                  4
+               </p>
+               <p>
+                  <space quantity="6" unit="char"/>Was wohl w<unclear>ü</unclear>rde dir,dem Osterreicher,dem Dichter,dein Herz gesagt haben,h<unclear>ä</unclear>ttest<lb/>
+                  du je von <rs type="person" ref="#amp_person_7">Franz J<unclear>ä</unclear>gerst<unclear>ä</unclear>tter</rs>,dem <rs type="place" ref="#amp_place_id_22">Sankt Radegund</rs>er Bauern,geh<unclear>ö</unclear>rt,der sein einsames<lb/>
+                  Nein zu dem Arierstaat sagte und gek<unclear>ö</unclear>p<del>t</del>ft wurde? Naturlich sorgte man daf<unclear>ü</unclear>r,dass nichts<lb/>
+                  davon zu Ohren kam,
+               </p>
+            <p hand="#handwritten">
+                  <unclear>5</unclear>
+               </p>
+               <p>
+                  <space quantity="5" unit="char"/>dass du unvorbereitet auf einen Tag sein solltest,der kommen mu<del>u</del>sste,eine Zeit,<lb/>
+                  voller Schrecken,Tr<unclear>ä</unclear>nen und Aufl<unclear>ö</unclear>sung,in <del>s</del>dem du,vor Al<del>p</del>bd<hi rend="underline">r<unclear>ü</unclear>c</hi>k erstarrt,dich selbst<lb/>
+                  vernichtetest? Vergeltung ging immer wie ein S<hi rend="underline">t<unclear>ü</unclear>mp</hi>er vor. "Dies alles ist furchtbar,<lb/>
+                  hier nur Schweigen gem<unclear>ä</unclear>ss."
+               </p>
+            <p hand="#handwritten">
+                  6
+               </p>
+               <p>
+                  <space quantity="5" unit="char"/>Unbemerkt und unbetrauert von mir die Stunde deines Todes,unbegr<unclear>ü</unclear>sst von dir<lb/>
+                  war der Augenblick,als ich,von der Vorsehung geleitet,<rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> zuerst erblickte,<lb/>
+                  an einem Oktobertag in str<unclear>ö</unclear>menden Regen,in einem Jahr,<del>s</del>das unsern Kosmos ver<unclear>ä</unclear>nderte<del>t</del> ,<lb/>
+                  dem <hi rend="underline">annus mirabilis</hi> als die Parit<unclear>ä</unclear>t gest<unclear>ü</unclear>rzt wurde.<lb/>
+               </p>
+            <p hand="#handwritten">
+                  7
+               </p>
+               <p>
+                  <space quantity="4" unit="char"/>Schon waren die Reiche,die verloren hatten,gen<unclear>ü</unclear>gend warm und sattgegessen,ihre<lb/>
+                  Verbrechen waren auf prosaischer und privater Art,jene <unclear>Ä</unclear>rgernisse,Tote und Schutt,<lb/>
+                  l<unclear>ä</unclear>ngst weggeschafft: f<unclear>ü</unclear>r ihre Gesch<unclear>ä</unclear>ndeten ver<unclear>b</unclear>l<del>al</del>lasste der Schock,ihre gewaltsam<lb/>
+                  entf<unclear>ü</unclear>hrten Physiker hatten kein Heimw<del>h</del>eh mehr.<lb/>
+               </p>
+            <p hand="#handwritten">
+                  8
+               </p>
+               <p>
+                  <space quantity="4" unit="char"/>Heute lacheln wir bei Hochzeiten,auf denen sowohl Braut als Br<unclear>ä</unclear>utigam geboren<lb/>
+                  waren,als sich der Schatten gehoben oder vielmehr anderswohin ger<unclear>ü</unclear>ckt war. Bis<lb/>
+                  <del>jezt</del> jetzt ist die Erde noch nie ohne ihren faulen Stellen,einen Unort mit<lb/>
+                  Stellungen f<unclear>ü</unclear>r Folterer,(In welchen Bars sind sie willkommen? Welche M<unclear>ä</unclear>dchen<lb/>
+                  heiraten sie?)
+               </p>
+            <p hand="#handwritten">
+                  <unclear>9</unclear>
+               </p>
+               <p>
+                  <space quantity="3" unit="char"/>noch nie war <unclear>ü</unclear>berall Frieden auf ihrer n<unclear>ä</unclear>hrenden Oberfl<unclear>ä</unclear>che: so viel wir wissen,<lb/>
+                  ist niemand je sicher gewesen,und deshalb <unclear>ü</unclear>berwachen brave Familienv<unclear>ä</unclear>ter,mit der<lb/>
+                  Hingebung von M<unclear>ö</unclear>nchen,in geheimen Zonen,Ger<unclear>ä</unclear>te,in denen harmlose Substanz<lb/>
+                  menschenm<unclear>ö</unclear>rderisch wird.
+               </p>
+            <p hand="#handwritten">
+                  10
+               </p>
+               <p>
+                  <space quantity="4" unit="char"/>Doch hier f<unclear>ü</unclear>hl ich mich zuhause,wie <hi rend="underline">du es ta</hi>tst: dieselben kurzlebigen Gesch<unclear>ö</unclear>pfe<lb/>
+                  stimmen wieder dieselben sorglosen Lieder an; Obstg<unclear>ä</unclear>rten halten fest an dem Regime,<lb/>
+                  das sie kennen,von des Aprils rasch zunehmenden Farbt<unclear>ö</unclear>nen bis zum ungest<unclear>ü</unclear>men Herbst,<lb/>
+                  wann bei jedem stotternden Windstoss <unclear>Ä</unclear>pfel auf den Boden plumpsen.
+               </p>
+            <p hand="#handwritten">
+                  11
+               </p>
+               <p>
+                  <space quantity="4" unit="char"/>Wenn ich <unclear>ü</unclear>ber unser Tal - human <del>un</del> bescheiden und sanft im Umriss - schaue,in dem<lb/>
+                  der <rs type="place" ref="amp_place_id_252">Sichelbach</rs> westwarts gurgelt,um sich mit dem <rs type="place" ref="amp_place_id_251">Perschling</rs> zu vereinigen,bin ich<lb/>
+                  mir bedeutendere Nachbarn ehrf<unclear>ü</unclear>rchtig bewusst,der Berge,die hinter mir aufragen,<lb/>
+                  vor mir des noblen Flusses,
+               </p>
+            <p hand="#handwritten">
+                  12
+               </p>
+               <p>
+                  <space quantity="4" unit="char"/>doch m<unclear>ö</unclear>cht ich auch dir Achtung erweisen,Nachbar und Kollege; denn selbst mein<lb/>
+                  englisches Ohr erfasst in deinem Deutsch die Meisterschaft und den Tonfall einen<lb/>
+                  dem es verg<unclear>ö</unclear>nnt war,auf dem umzaunten Rasen die Brat<del>ch</del>schen zu h<unclear>ö</unclear>ren,die er sich<lb/>
+                  sp<unclear>ä</unclear>ter verpflichtet f<unclear>ü</unclear>hlte<del>t</del>,"den Abgrund zu nennen."
+               </p>
+               <p>
+                  <space quantity="25" unit="char"/>______
+               </p>
+               <p hand="#handwritten">
+                  sta<unclear>t</unclear>t Bra<unclear>t</unclear>
+               </p>
+               <p hand="#handwritten">
+                  M<unclear>y</unclear> dictionary gives <hi rend="underline">Krethi und Plethi</hi> .<lb/>
+                  I<unclear>s</unclear> that right<unclear>?</unclear>
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0140/" type="sheet"/>
+         </div>
+      </body>
+   </text>
+</TEI>
