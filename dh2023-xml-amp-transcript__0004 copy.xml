@@ -67,6 +67,42 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prs" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin/indexes/person#$1">
+               <p>Index of Persons</p>
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin/indexes/places#$1">
+               <p>Index of Places</p>
+            </prefixDef>
+            <prefixDef ident="lit" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin/indexes/literature#$1">
+               <p>Index of Literature</p>
+            </prefixDef>
+            <prefixDef ident="org" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin/indexes/organizaitons#$1">
+               <p>Index of Organizations</p>
+            </prefixDef>
+            <prefixDef ident="c" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin/research/certainty#$1">
+               <p>RDF schema about research/certainty.</p>
+            </prefixDef>
+            <prefixDef ident="i" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin/research/identity#$1">
+               <p>RDF schema about research/identity.</p>
+            </prefixDef>
+            <prefixDef ident="n" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin/research/nano#$1">
+               <p>RDF schema about modelling research/nano publications.</p>
+            </prefixDef>
+            <prefixDef ident="s" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin/research/singeltonProperty#$1">
+               <p>RDF schema about modelling research/singeltonProperty.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -124,61 +160,72 @@ for any purpose, even commercially.</p>
       <body>
          <div xml:id="transcription">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0019/" type="envelope"/>
-               <p>
-                  <rs type="person" ref="#amp_person_1">W.H.Auden</rs><lb/>
-                  <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
-                  New York City 3<lb/>
-                  New York IOOO3<lb/>
-                  U.S.A.</rs>
-               </p>
-               <p>
-                  <hi rend="underline">Air-Mail</hi>
-               </p>
-               <p>
-                  <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
-                  <space quantity="3" unit="char"/>Stella Musulin</rs><lb/>
-                  <space quantity="5" unit="char"/><rs type="place" ref="#amp_place_id_7">Fridau<lb/>
-                  <space quantity="6" unit="char"/>32<del>o</del>OO Obergrafendorf<lb/>
-                  <space quantity="8" unit="char"/>N.<unclear>Ö</unclear>.<lb/>
-                  <space quantity="9" unit="char"/>Austria</rs>
-               </p>
+            <p ana="#isSender" xml:id="sender1">
+               <rs type="person" ref="#amp_person_1">W.H.Auden</rs><lb/>
+               <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
+               New York City 3<lb/>
+               New York IOOO3<lb/>
+               U.S.A.</rs>
+            </p>
+            <p>
+               <hi rend="underline">Air-Mail</hi>
+            </p>
+            <p ana="str:isReceiver">
+               <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
+               <space quantity="3" unit="char"/>Stella Musulin</rs><lb/>
+               <space quantity="5" unit="char"/><rs type="place" ref="#amp_place_id_7">Fridau<lb/>
+               <space quantity="6" unit="char"/>32<del>o</del>OO Obergrafendorf<lb/>
+               <space quantity="8" unit="char"/>N.<unclear>Ö</unclear>.<lb/>
+               <space quantity="9" unit="char"/>Austria</rs>
+            </p>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0020/" type="envelope"/>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0021/" type="sheet"/>
-               <p>
-                  <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
-                  New <space quantity="1" unit="char"/>York City 3<lb/>
-                  New York IOOO3</rs>
-               </p>
-               <p>
-                  Feb 3rd,I96<del>5</del>6
-               </p>
+            <p ana="str:main_bo dy">
+               <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
+               New <space quantity="1" unit="char"/>York City 3<lb/>
+               New York IOOO3</rs>
+            </p>
+            <p>
+               Feb 3rd,I96<del>5</del>6
+            </p>
+            <div type="letter_body">
                <p>
                   <space quantity="19" unit="char"/>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:<lb/>
                   <space quantity="7" unit="char"/>Many thanks for your nice long letter. <rs type="person" ref="#amp_person_8">Stephen</rs> has a genius for<lb/>
                   <space quantity="4" unit="char"/>subtle misrepresentation. "Serious insistence on unseriousness'<lb/>
                   <space quantity="4" unit="char"/>telescopes two <del>cnvictuons</del>distinct convictions of mine,falsifying both.<lb/>
-                  <space quantity="5" unit="char"/>I) I believe it to be a serious moral error when an artist overestimates<lb/>
-                  <space quantity="8" unit="char"/>the importance of art and,by implication,of himself. One must admit<lb/>
-                  <space quantity="8" unit="char"/>that the <del>plotical</del> political history of <rs type="place" ref="#amp_place_id_30">Eur<del>i</del>ope</rs>,with <del>all its</del>the same horrors,<lb/>
-                  <space quantity="8" unit="char"/>would be what it has been,if <rs type="person" ref="#amp_person_9">Dante</rs>,<rs type="person" ref="#amp_person_10">Shakespeare</rs>,<rs type="person" ref="#amp_person_11">Goethe</rs>,<rs type="person" ref="#amp_person_12">Titian</rs>,<lb/>
-                  <space quantity="8" unit="char"/><rs type="person" ref="#amp_person_13">Mo<del>x</del>zart</rs>,et al,had never existed.<lb/>
-                  <space quantity="4" unit="char"/>2) I believe that the only way in which,to-day at any rate,one can<lb/>
-                  <space quantity="7" unit="char"/>speak <del>seroiu</del> <del>s eriously</del> <hi rend="underline">seriously</hi> about serious matters(the alternati<del>c</del>ve<lb/>
-                  <space quantity="7" unit="char"/>is silence) is comically. I am surprised to hear from you that<lb/>
-                  <space quantity="7" unit="char"/>Jews find this hard to accept. I have enormously admired - and been<lb/>
-                  <space quantity="6" unit="char"/>influenced by - the tradition of Jewish humor. More than any other<lb/>
-                  <space quantity="6" unit="char"/>people,surely,they have seen in serious matters,that is to say,human<lb/>
-                  <space quantity="6" unit="char"/>suffering,<del>and</del> the contradictions of human existence,and the relation<lb/>
-                  <space quantity="6" unit="char"/>between man and God,occasions for humorous expression.<lb/>
-                  <space quantity="7" unit="char"/>e.g,: "If the rich could hire other people to die for them,the poor<lb/>
-                  <space quantity="5" unit="char"/>cou<del>o</del>ld make a wonderful living", or "Truth rests with God alone,and<lb/>
-                  <space quantity="5" unit="char"/>a little bit with me",or "God will provide - ah,if only He wou<del>o</del>ld till<lb/>
-                  <space quantity="5" unit="char"/>He does so."<lb/>
-                  <space quantity="2" unit="char"/>So! you encountered the <rs type="person" ref="#amp_person_175">one-whose-name-we-never-mention</rs>. Why <rs type="person" ref="#amp_person_4">Chest<del>r</del>er</rs> should<lb/>
+               </p>
+               <list rend="block">
+                  <item n="I)">
+                     <space quantity="5" unit="char"/>I believe it to be a serious moral error when an artist overestimates<lb/>
+                     <space quantity="8" unit="char"/>the importance of art and,by implication,of himself. One must admit<lb/>
+                     <space quantity="8" unit="char"/>that the <del>plotical</del> political history of <rs type="place" ref="#amp_place_id_30">Eur<del>i</del>ope</rs>,with <del>all its</del>the same horrors,<lb/>
+                     <space quantity="8" unit="char"/>would be what it has been,if <rs type="person" ref="#amp_person_9">Dante</rs>,<rs type="person" ref="#amp_person_10">Shakespeare</rs>,<rs type="person" ref="#amp_person_11">Goethe</rs>,<rs type="person" ref="#amp_person_12">Titian</rs>,<lb/>
+                     <space quantity="8" unit="char"/><rs type="person" ref="#amp_person_13">Mo<del>x</del>zart</rs>,et al,had never existed.<lb/>
+                  </item>
+                  <item n="2)">
+                     <space quantity="4" unit="char"/>I believe that the only way in which,to-day at any rate,one can<lb/>
+                     <space quantity="7" unit="char"/>speak <del>seroiu</del> <del>s eriously</del> <hi rend="underline">seriously</hi> about serious matters(the alternati<del>c</del>ve<lb/>
+                     <space quantity="7" unit="char"/>is silence) is comically. I am surprised to hear from you that<lb/>
+                     <space quantity="7" unit="char"/>Jews find this hard to accept. I have enormously admired - and been<lb/>
+                     <space quantity="6" unit="char"/>influenced by - the tradition of Jewish humor. More than any other<lb/>
+                     <space quantity="6" unit="char"/>people,surely,they have seen in serious matters,that is to say,human<lb/>
+                     <space quantity="6" unit="char"/>suffering,<del>and</del> the contradictions of human existence,and the relation<lb/>
+                     <space quantity="6" unit="char"/>between man and God,occasions for humorous expression.<lb/>
+                     <space quantity="7" unit="char"/>e.g,: "If the rich could hire other people to die for them,the poor<lb/>
+                     <space quantity="5" unit="char"/>cou<del>o</del>ld make a wonderful living", or "Truth rests with God alone,and<lb/>
+                     <space quantity="5" unit="char"/>a little bit with me",or "God will provide - ah,if only He wou<del>o</del>ld till<lb/>
+                     <space quantity="5" unit="char"/>He does so."<lb/>
+                  </item>
+               </list>
+               <p>
+                  <space quantity="2" unit="char"/><rs type="interpretation" cert="50" ana="str__isUncertain" xml:id="str__cert_175">So! you encountered the <rs type="person" ref="#amp_person_175">one-whose-name-we-never-mention</rs>. Why <rs type="person" ref="#amp_person_4">Chest<del>r</del>er</rs> should<lb/>
                   <space quantity="1" unit="char"/>have been so foolish as <space quantity="1" unit="char"/>to invite him to a p<del>e</del>arty,I cannot imagine. If he<lb/>
-                  is to be seen at all,he <del>jy</del>must be seen alone. <rs type="event" ref="#ampt_event_999">Incidentally,next time you see<lb/>
+                  is to be seen at all,he <del>jy</del>must be seen alone. Incidentally,next time you see<lb/>
                   <rs type="person" ref="#amp_person_4">Chester</rs>,scold him a) for not writing to me b) for not answering <rs type="person" ref="#amp_person_108">Harrison</rs>'s<lb/>
-                  cable.</rs><lb/>
+                  cable.<lb/></rs>
+               </p>
+               <p>
                   <space quantity="1" unit="char"/>All well here.except for a leaking kit<del>v</del>chen roof. No doubt you read about<lb/>
                   our <rs type="event" ref="#amp_event_id_4">Black-Out</rs> and <rs type="event" ref="#amp_event_id_5">Transit Strike</rs>.(My typewriter is on the blink,hence the<lb/>
                   hiatuses.) <space quantity="1" unit="char"/>A <rs type="person" ref="#amp_person_174"><del>firen</del> friend of mine who teaches schyzophrenics</rs>,has a seventeen<lb/>
@@ -189,22 +236,9 @@ for any purpose, even commercially.</p>
                   <space quantity="21" unit="char"/>much love <handShift new="#handwritten"/>and <unclear>g</unclear>reetings to <rs type="person" ref="#amp_person_94">son</rs> and <rs type="person" ref="#amp_person_93">mum-in-law</rs><lb/>
                   <rs type="person" ref="#amp_person_1">Wystan</rs>.
                </p>
+            </div>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0022/" type="sheet"/>
          </div>
       </body>
-      <back>
-         <listEvent>
-            <event xml:id="amp_event_999" notBefore="1966-01-01" notAfter="1966-02-03" cert="medium" resp="#tfruewirth" type="mentioned" where="#somePlaceID">
-               <label>scold him a) for not writing to me b) for not answering Harrisons cable</label>
-               <desc ana="semantic__someID">Missed phone conversation between <rs type="person" ref="#amp_person_4">Chester</rs> and <rs type="person" ref="#amp_person_108">Harrison</rs>.</desc>
-               <event xml:id="cert__someID" type="research" evidence="conjecture">
-                  <label>Uncertainty Research</label>
-                  <desc>RDF Triplestore</desc>
-                  <note></note>
-                  <idno type="DOI">some doi</idno>
-               </event>
-            </event>
-         </listEvent>
-      </back>
    </text>
 </TEI>
