@@ -194,13 +194,13 @@ for any purpose, even commercially.</p>
       </body>
       <back>
          <listEvent>
-            <event xml:id="amp_event_999" notBefore="1966-01-01" notAfter="1966-02-03" cert="medium" resp="#tfruewirth" type="mentioned" where="#somePlaceID">
+            <event xml:id="amp_event_999" notBefore="1966-01-01" notAfter="1966-02-03" type="assertive" where="#somePlaceID" evidence="conjecture">
                <label>scold him a) for not writing to me b) for not answering Harrisons cable</label>
-               <desc ana="semantic__someID">Missed phone conversation between <rs type="person" ref="#amp_person_4">Chester</rs> and <rs type="person" ref="#amp_person_108">Harrison</rs>.</desc>
-               <event xml:id="cert__someID" type="research" evidence="conjecture">
-                  <label>Uncertainty Research</label>
-                  <desc>RDF Triplestore</desc>
-                  <note></note>
+               <desc ana="semantic__someID">Missed telegram between <persName ref="#amp_person_4">Chester</persName> and <persName ref="#amp_person_108">Harrison</persName>.</desc>
+               <event cert="medium" resp="#tfruewirth" xml:id="amp_event_999/1" type="non-assertive" evidence="external" from="2022-04-01" to="2022-06-30">
+                  <label>Non-assertive Event</label>
+                  <desc>Further research about certainty of the identified person <persName ref="#amp_person_108">Harrison</persName> mentioned in the <ref target="amp-transcript__0004.xml">transcribed text</ref>.</desc>
+                  <note type="idno">The provided DOI leads to further research about the non-assertive event.</note>
                   <idno type="DOI">some doi</idno>
                </event>
             </event>
