@@ -15,8 +15,6 @@ uri = URIRef(domain)
 g = Graph(store=store, identifier=uri)
 g.bind("amp", AMP)
 g.bind("crm", CIDOC)
-g.bind("rdf", RDF)
-g.bind("rdfs", RDFS)
 
 # create output directory
 rdf_dir = "./rdf"
@@ -31,8 +29,8 @@ assertive = URIRef(f"{AMP}event/types/assertive")
 non_assertive = URIRef(f"{AMP}event/types/non-assertive")
 nano_publication = URIRef(f"{AMP}event/nano-publication")
 g.add((assertive, RDF.type, CIDOC["P2_has_type"]))
-g.add((non_assertive , RDF.type, CIDOC["P2_has_type"]))
-g.add((nano_publication , RDF.type, CIDOC["P2_has_type"]))
+g.add((non_assertive, RDF.type, CIDOC["P2_has_type"]))
+g.add((nano_publication, RDF.type, CIDOC["P2_has_type"]))
 # create event based on TEI
 for x in tqdm(items, total=len(items)):
     xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
@@ -53,8 +51,8 @@ for x in tqdm(items, total=len(items)):
     g.add((subj, RDFS.comment, Literal(desc)))
     # check if there is another event inside and create type
     try:
-        na_event = x.xpath("./tei:event" , namespaces=doc.nsmap)[0]
-    except:
+        na_event = x.xpath("./tei:event", namespaces=doc.nsmap)[0]
+    except IndexError:
         na_event = None
     if na_event is not None:
         xml_id = na_event.attrib["{http://www.w3.org/XML/1998/namespace}id"]
