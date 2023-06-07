@@ -176,9 +176,14 @@ for any purpose, even commercially.</p>
                   <space quantity="5" unit="char"/>He does so."<lb/>
                   <space quantity="2" unit="char"/>So! you encountered the <rs type="person" ref="#amp_person_175">one-whose-name-we-never-mention</rs>. Why <rs type="person" ref="#amp_person_4">Chest<del>r</del>er</rs> should<lb/>
                   <space quantity="1" unit="char"/>have been so foolish as <space quantity="1" unit="char"/>to invite him to a p<del>e</del>arty,I cannot imagine. If he<lb/>
-                  is to be seen at all,he <del>jy</del>must be seen alone. <rs type="event" ref="#ampt_event_999">Incidentally,next time you see<lb/>
-                  <rs type="person" ref="#amp_person_4">Chester</rs>,scold him a) for not writing to me b) for not answering <rs type="person" ref="#amp_person_108">Harrison</rs>'s<lb/>
-                  cable.</rs><lb/>
+                  is to be seen at all,he <del>jy</del>must be seen alone. 
+                  
+                  <rs type="event" ref="#ampt_event_999">Incidentally,next time you see<lb/> 
+                     <rs type="person" ref="#amp_person_4">Chester</rs>,scold him a) for not writing to me b) for not answering <rs type="person" ref="#amp_person_108">Harrison</rs>'s<lb/>
+                     cable.
+                  </rs>
+                  
+                  <lb/>
                   <space quantity="1" unit="char"/>All well here.except for a leaking kit<del>v</del>chen roof. No doubt you read about<lb/>
                   our <rs type="event" ref="#amp_event_id_4">Black-Out</rs> and <rs type="event" ref="#amp_event_id_5">Transit Strike</rs>.(My typewriter is on the blink,hence the<lb/>
                   hiatuses.) <space quantity="1" unit="char"/>A <rs type="person" ref="#amp_person_174"><del>firen</del> friend of mine who teaches schyzophrenics</rs>,has a seventeen<lb/>
@@ -196,12 +201,14 @@ for any purpose, even commercially.</p>
          <listEvent>
             <event xml:id="amp_event_999" notBefore="1966-01-01" notAfter="1966-02-03" type="assertive" where="#somePlaceID" evidence="conjecture">
                <label>scold him a) for not writing to me b) for not answering Harrisons cable</label>
-               <desc ana="semantic__someID">Missed telegram between <persName ref="#amp_person_4">Chester</persName> and <persName ref="#amp_person_108">Harrison</persName>.</desc>
+               <desc ana="semantic__someID">Missed telegram between <persName ref="#amp_person_4">Chester</persName> and 
+                  <persName ref="#amp_person_108">Harrison</persName>.</desc>
                <event cert="medium" resp="#tfruewirth" xml:id="amp_event_999-1" type="non-assertive" evidence="external" from="2022-04-01" to="2022-06-30">
                   <label>Non-assertive Event 999-1</label>
-                  <desc>Further research about certainty of the identified person <persName ref="#amp_person_108">Harrison</persName>. Mentioned in: <ref target="amp-transcript__0004.xml">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</ref>.</desc>
+                  <desc>Further research about certainty of the identified person <persName ref="#amp_person_108">Harrison</persName>. 
+                     Mentioned in: <ref target="amp-transcript__0004.xml">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</ref>.</desc>
                   <note type="idno">The provided DOI leads to further research about the non-assertive event.</note>
-                  <idno type="DOI">some doi</idno>
+                  <idno type="DOI">https://doi.org/10.5281/zenodo.8009636</idno>
                </event>
             </event>
          </listEvent>

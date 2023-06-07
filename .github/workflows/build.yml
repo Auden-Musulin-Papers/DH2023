@@ -1,0 +1,25 @@
+name: Build and publish
+
+on: push
+
+jobs:
+  build_pages:
+    name: Publish Edition as GitHub Pages Website
+    runs-on: ubuntu-latest
+    steps:
+    - name: Perform Checkout
+      uses: actions/checkout@v3
+    - name: pip
+      run: |
+        pip install -U pip
+        pip install -r requirements.txt
+    - name: tei2cidoc 
+      run: |
+        python scripts/tei2cidoc.py
+        mv ./rdf/events.ttl ./html/events.ttl
+        mv ./rdf/events.trig ./html/events.trig
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+        publish_dir: ./html

@@ -1,0 +1,4 @@
+lxml
+rdflib
+acdh-cidoc-pyutils
+acdh-tei-pyutils

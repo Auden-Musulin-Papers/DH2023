@@ -1,12 +1,8 @@
 # project specific
-*.html
-/html
 /saxon
-/static-search
-/html/static-search
-/html/js/arche_api_functions
-/html/autocomplete-addon/auden.txt
-
+/rdf
+*.ttl  
+*.trig
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
