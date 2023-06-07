@@ -1,0 +1,35 @@
+@prefix amp: <https://amp.acdh.oeaw.ac.at/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+amp:amp_event_999-1 a crm:E5_Event,
+        <https://amp.acdh.oeaw.ac.at/event/types/non-assertive> ;
+    rdfs:label "Non-assertive Event 999-1" ;
+    crm:P14_carried_out_by "#tfruewirth" ;
+    crm:P1_is_identified_by "Grigoriou, Dimitra" ;
+    crm:P81a_end_of_the_begin "2022-04-01" ;
+    crm:P81b_begin_of_the_end "2022-06-30" ;
+    crm:P82a_begin_of_the_begin "2022-04-01" ;
+    crm:P82b_end_of_the_end "2022-06-30" ;
+    crm:P9_consists_of <https://amp.acdh.oeaw.ac.at/10.5281/zenodo.8009636> ;
+    rdfs:comment """Further research about certainty of the identified person  Harrison . 
+                     Mentioned in:  Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03 .""" .
+
+amp:amp_event_999 a crm:E5_Event,
+        <https://amp.acdh.oeaw.ac.at/event/types/assertive> ;
+    rdfs:label "scold him a) for not writing to me b) for not answering Harrisons cable" ;
+    crm:P123_resulted_in <https://amp.acdh.oeaw.ac.at/10.5281/zenodo.8009636> ;
+    crm:P1_is_identified_by "Grigoriou, Dimitra" ;
+    rdfs:comment """Missed telegram between  Chester  and 
+                   Harrison .""" .
+
+<https://amp.acdh.oeaw.ac.at/event/nano-publication> a crm:P2_has_type .
+
+<https://amp.acdh.oeaw.ac.at/event/types/assertive> a crm:P2_has_type .
+
+<https://amp.acdh.oeaw.ac.at/event/types/non-assertive> a crm:P2_has_type .
+
+<https://amp.acdh.oeaw.ac.at/10.5281/zenodo.8009636> a <https://amp.acdh.oeaw.ac.at/event/nano-publication> ;
+    crm:P123_resulted_from amp:amp_event_999 ;
+    crm:P70_is_documented_in <https://doi.org/10.5281/zenodo.8009636> .
+
