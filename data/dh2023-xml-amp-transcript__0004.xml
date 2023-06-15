@@ -201,7 +201,7 @@ for any purpose, even commercially.</p>
       <back>
          <listEvent>
             <event xml:id="amp_event_999"
-                   notBefore="1966-01-01"
+                   notBefore="1965-10-20"
                    notAfter="1966-02-03"
                    evidence="asserted"
                    type="communicative"
