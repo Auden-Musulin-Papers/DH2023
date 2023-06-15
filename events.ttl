@@ -2,37 +2,19 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://amp.acdh.oeaw.ac.at/10.5281/zenodo.8009636> a <https://amp.acdh.oeaw.ac.at/event/types/nano-publication> ;
-    crm:P123_resulted_from amp:amp_event_1000 ;
-    crm:P70_is_documented_in <https://doi.org/10.5281/zenodo.8009636> .
-
-amp:amp_event_999 a crm:E5_Event,
-        <https://amp.acdh.oeaw.ac.at/event/types/assertive> ;
-    rdfs:label "scold him a) for not writing to me b) for not answering Harrisons cable" ;
-    crm:P123_resulted_in amp:amp_event_1000 ;
-    crm:P82a_begin_of_the_begin "1966-01-01" ;
-    crm:P82b_end_of_the_end "1966-02-03" ;
-    rdfs:comment """Missed telegram between  Chester  and 
-                   Harrison .
-                  Mentioned in:  Typed Letter Signed W. H. Auden to 
-                     Stella Musulin 1966-02-03 .""" .
-
-<https://amp.acdh.oeaw.ac.at/event/types/assertive> a crm:P2_has_type .
-
-<https://amp.acdh.oeaw.ac.at/event/types/nano-publication> a crm:P2_has_type .
-
-<https://amp.acdh.oeaw.ac.at/event/types/non-assertive> a crm:P2_has_type .
-
-amp:amp_event_1000 a crm:E5_Event,
-        <https://amp.acdh.oeaw.ac.at/event/types/non-assertive> ;
+amp:amp_event_1000 a crm:E5_Event ;
     rdfs:label "Non-assertive Event 1000" ;
-    crm:E91_co_reference_assignment "medium" ;
-    crm:P123_resulted_from amp:amp_event_999 ;
-    crm:P123_resulted_in <https://amp.acdh.oeaw.ac.at/10.5281/zenodo.8009636> ;
-    crm:P1_is_identified_by "#tfruewirth" ;
-    crm:P82a_begin_of_the_begin "2022-04-01" ;
-    crm:P82b_end_of_the_end "2022-06-30" ;
     rdfs:comment """Further research about certainty of the identified person 
                    Harrison . 
                """ .
+
+amp:amp_event_999 a crm:E5_Event ;
+    rdfs:label "Telegram communication between Chester Kallman and Harrison" ;
+    rdfs:comment "" .
+
+<https://amp.acdh.oeaw.ac.at/event/types/assertive> a crm:E55_Type .
+
+<https://amp.acdh.oeaw.ac.at/event/types/nano-publication> a crm:E55_Type .
+
+<https://amp.acdh.oeaw.ac.at/event/types/non-assertive> a crm:E55_Type .
 
