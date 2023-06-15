@@ -28,9 +28,9 @@ items = doc.any_xpath(".//tei:event")
 assertive = URIRef(f"{AMP}event/types/assertive")
 non_assertive = URIRef(f"{AMP}event/types/non-assertive")
 nano_publication = URIRef(f"{AMP}event/types/nano-publication")
-g.add((assertive, RDF.type, CIDOC["P2_has_type"]))
-g.add((non_assertive, RDF.type, CIDOC["P2_has_type"]))
-g.add((nano_publication, RDF.type, CIDOC["P2_has_type"]))
+g.add((assertive, RDF.type, CIDOC["E55_Type"]))
+g.add((non_assertive, RDF.type, CIDOC["E55_Type"]))
+g.add((nano_publication, RDF.type, CIDOC["E55_Type"]))
 # create event based on TEI
 for x in tqdm(items, total=len(items)):
     xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
