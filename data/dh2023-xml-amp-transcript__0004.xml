@@ -205,15 +205,15 @@ for any purpose, even commercially.</p>
                    notAfter="1966-02-03"
                    evidence="asserted"
                    type="communicative"
-                   subtype="telegram"
-                   corresp="#amp_event_1000">
+                   subtype="telegram"><!--
+                   corresp="#amp_event_1000">-->
                <head>Telegram communication between Harrison and Chester Kallman, 1965/1966</head>
-               <ab type="participans">
+               <ab type="participants">
                   <persName role="addressee" ref="#amp_person_4">Chester Kallman</persName>
                   <persName role="sender" ref="#amp_person_108">Harrison</persName>
                </ab>
             </event>
-            
+            <!--
             <event cert="medium" resp="#tfruewirth"
                xml:id="amp_event_1000"
                type="non-asserted" evidence="external"
@@ -224,7 +224,7 @@ for any purpose, even commercially.</p>
                <desc>Further research about certainty of the identified person 
                   <persName ref="#amp_person_108">Harrison</persName>. 
                </desc>
-            </event>
+            </event>-->
          </listEvent>
       </back>
    </text>
