@@ -3,12 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 amp: {
-    amp:amp_event_1000 a crm:E5_Event ;
-        rdfs:label "" ;
-        rdfs:comment """Further research about certainty of the identified person 
-                   Harrison . 
-               """ .
-
     amp:amp_event_999 a crm:E5_Event ;
         rdfs:label "" ;
         rdfs:comment "" .
