@@ -220,7 +220,7 @@ for any purpose, even commercially.</p>
                </persName>
                <interp xml:id="ana_108" source="some_doi"><!-- link to nano publication -->
                   <desc>
-                     <persName>
+                     <persName><!-- nest this inside person element together with other subelements -->
                         <forename>Harrison</forename>
                         <surname>Birtwistle</surname>
                      </persName>
