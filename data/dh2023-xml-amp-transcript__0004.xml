@@ -218,15 +218,15 @@ for any purpose, even commercially.</p>
                <persName ana="#ana_108">
                   Harrison
                </persName>
-               <interp xml:id="ana_108" source="doi">
+               <interp xml:id="ana_108" source="some_doi"><!-- link to nano publication -->
                   <desc>
                      <persName>
                         <forename>Harrison</forename>
-                        <surname>Birdwhistle</surname>
+                        <surname>Birtwistle</surname>
                      </persName>
                   </desc>
-                  <respons locus="value" resp="#tfruewirt #dgrigoriou #smayer" />
-                  <certainty locus="value" cert="low" />
+                  <respons locus="value" resp="#tfruewirt #dgrigoriou #smayer"/>
+                  <certainty locus="value" cert="low"/>
                </interp>
             </person>
          </listPerson>
