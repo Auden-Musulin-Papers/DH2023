@@ -226,6 +226,23 @@ for any purpose, even commercially.</p>
                </desc>
             </event>-->
          </listEvent>
+         <listPerson>
+            <person xml:id="amp_person_108">
+               <persName ana="#ana_108">
+                  Harrison
+               </persName>
+               <interp xml:id="ana_108" source="doi">
+                  <desc>
+                     <persName>
+                        <forename>Harrison</forename>
+                        <surname>Birdwhistle</surname>
+                     </persName>
+                  </desc>
+                  <respons locus="value" resp="#tfruewirt #dgrigoriou #smayer" />
+                  <certainty locus="value" cert="low" />
+               </interp>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>
