@@ -220,12 +220,14 @@ for any purpose, even commercially.</p>
                </persName>
                <interp xml:id="ana_108" source="some_doi"><!-- link to nano publication -->
                   <desc>
-                     <person source="some_wikidata-uri">
-                        <persName>
-                           <forename>Harrison</forename>
-                           <surname>Birtwistle</surname>
-                        </persName>
-                     </person>   
+                     <listPerson>
+                        <person source="some_wikidata-uri">
+                           <persName>
+                              <forename>Harrison</forename>
+                              <surname>Birtwistle</surname>
+                           </persName>
+                        </person>
+                     </listPerson>
                   </desc>
                   <respons locus="value" resp="#tfruehwirth #dgrigoriou #smayer"/>
                   <certainty locus="value" cert="low"/>
